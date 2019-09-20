@@ -1,0 +1,7 @@
+*** Settings ***
+Resource          ./base.robot
+*** Test Cases ***
+${d}    add    5    6    
+    log    ${d}
+    
+    

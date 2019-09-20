@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20190422 13:48:22.633" generator="Robot 3.0.4 (Python 2.7.15 on win32)">
+<suite source="D:\RFPRO\Xhh" id="s1" name="Xhh">
+<suite source="D:\RFPRO\Xhh\login" id="s1-s1" name="Login">
+<suite source="D:\RFPRO\Xhh\login\login.robot" id="s1-s1-s1" name="Login">
+<test id="s1-s1-s1-t1" name="Log test">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${a}</arg>
+</arguments>
+<status status="PASS" endtime="20190422 13:48:23.106" starttime="20190422 13:48:23.105"></status>
+</kw>
+<status status="PASS" endtime="20190422 13:48:23.106" critical="yes" starttime="20190422 13:48:23.105"></status>
+</test>
+<status status="PASS" endtime="20190422 13:48:23.108" starttime="20190422 13:48:23.102"></status>
+</suite>
+<status status="PASS" endtime="20190422 13:48:23.109" starttime="20190422 13:48:23.099"></status>
+</suite>
+<status status="PASS" endtime="20190422 13:48:23.111" starttime="20190422 13:48:23.059"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Xhh" pass="1">Xhh</stat>
+<stat fail="0" id="s1-s1" name="Login" pass="1">Xhh.Login</stat>
+<stat fail="0" id="s1-s1-s1" name="Login" pass="1">Xhh.Login.Login</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,3 @@
+*** Test Cases ***
+Set IP
+    log    ${ip1}

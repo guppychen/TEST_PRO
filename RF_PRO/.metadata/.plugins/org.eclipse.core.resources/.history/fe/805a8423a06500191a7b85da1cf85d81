@@ -1,0 +1,5 @@
+*** Setting ***
+Resource    ../base.robot
+*** Variable ***
+${n}    4
+${m}    5

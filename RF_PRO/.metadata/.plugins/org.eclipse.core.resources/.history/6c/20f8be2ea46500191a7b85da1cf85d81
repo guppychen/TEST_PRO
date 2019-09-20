@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20190423 16:32:11.721" generator="Robot 3.0.4 (Python 2.7.15 on win32)">
+<suite source="D:\RFPRO\Xhh" id="s1" name="Xhh">
+<suite source="D:\RFPRO\Xhh\mypro" id="s1-s1" name="Mypro">
+<suite source="D:\RFPRO\Xhh\mypro\IPv4" id="s1-s1-s1" name="IPv4">
+<suite source="D:\RFPRO\Xhh\mypro\IPv4\tesy.robot" id="s1-s1-s1-s1" name="Tesy">
+<test id="s1-s1-s1-s1-t1" name="case add">
+<kw name="add" library="keyword">
+<arguments>
+<arg>${n}</arg>
+<arg>${m}</arg>
+</arguments>
+<assign>
+<var>${d}</var>
+</assign>
+<msg timestamp="20190423 16:32:11.972" level="FAIL">Variable '${n}' not found. Did you mean:
+    ${\n}</msg>
+<status status="FAIL" endtime="20190423 16:32:11.972" starttime="20190423 16:32:11.971"></status>
+</kw>
+<status status="FAIL" endtime="20190423 16:32:11.972" critical="yes" starttime="20190423 16:32:11.970">Variable '${n}' not found. Did you mean:
+    ${\n}</status>
+</test>
+<status status="FAIL" endtime="20190423 16:32:11.973" starttime="20190423 16:32:11.956"></status>
+</suite>
+<status status="FAIL" endtime="20190423 16:32:11.974" starttime="20190423 16:32:11.954"></status>
+</suite>
+<status status="FAIL" endtime="20190423 16:32:11.975" starttime="20190423 16:32:11.952"></status>
+</suite>
+<status status="FAIL" endtime="20190423 16:32:11.976" starttime="20190423 16:32:11.912"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="0">Critical Tests</stat>
+<stat fail="1" pass="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="1" id="s1" name="Xhh" pass="0">Xhh</stat>
+<stat fail="1" id="s1-s1" name="Mypro" pass="0">Xhh.Mypro</stat>
+<stat fail="1" id="s1-s1-s1" name="IPv4" pass="0">Xhh.Mypro.IPv4</stat>
+<stat fail="1" id="s1-s1-s1-s1" name="Tesy" pass="0">Xhh.Mypro.IPv4.Tesy</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

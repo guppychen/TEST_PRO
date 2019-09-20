@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20190423 17:09:16.318" generator="Robot 3.0.4 (Python 2.7.15 on win32)">
+<suite source="D:\RFPRO\Xhh" id="s1" name="Xhh">
+<suite source="D:\RFPRO\Xhh\mypro" id="s1-s1" name="Mypro">
+<suite source="D:\RFPRO\Xhh\mypro\IPv4" id="s1-s1-s1" name="IPv4">
+<suite source="D:\RFPRO\Xhh\mypro\IPv4\test2.robot" id="s1-s1-s1-s1" name="Test2">
+<test id="s1-s1-s1-s1-t1" name="case add">
+<kw name="add" library="keyword">
+<arguments>
+<arg>${n}</arg>
+<arg>${m}</arg>
+</arguments>
+<assign>
+<var>${d}</var>
+</assign>
+<kw name="Evaluate" library="BuiltIn">
+<doc>Evaluates the given expression in Python and returns the results.</doc>
+<arguments>
+<arg>${a}+${b}</arg>
+</arguments>
+<assign>
+<var>${c}</var>
+</assign>
+<msg timestamp="20190423 17:09:16.419" level="INFO">${c} = 32</msg>
+<status status="PASS" endtime="20190423 17:09:16.419" starttime="20190423 17:09:16.418"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>this is add method</arg>
+</arguments>
+<msg timestamp="20190423 17:09:16.420" level="INFO">this is add method</msg>
+<status status="PASS" endtime="20190423 17:09:16.420" starttime="20190423 17:09:16.420"></status>
+</kw>
+<msg timestamp="20190423 17:09:16.420" level="INFO">${d} = 32</msg>
+<status status="PASS" endtime="20190423 17:09:16.421" starttime="20190423 17:09:16.418"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${d}</arg>
+</arguments>
+<msg timestamp="20190423 17:09:16.421" level="INFO">32</msg>
+<status status="PASS" endtime="20190423 17:09:16.421" starttime="20190423 17:09:16.421"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${d}</arg>
+</arguments>
+<status status="PASS" endtime="20190423 17:09:16.422" starttime="20190423 17:09:16.422"></status>
+</kw>
+<status status="PASS" endtime="20190423 17:09:16.422" critical="yes" starttime="20190423 17:09:16.417"></status>
+</test>
+<status status="PASS" endtime="20190423 17:09:16.423" starttime="20190423 17:09:16.411"></status>
+</suite>
+<status status="PASS" endtime="20190423 17:09:16.424" starttime="20190423 17:09:16.409"></status>
+</suite>
+<status status="PASS" endtime="20190423 17:09:16.425" starttime="20190423 17:09:16.407"></status>
+</suite>
+<status status="PASS" endtime="20190423 17:09:16.426" starttime="20190423 17:09:16.387"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Xhh" pass="1">Xhh</stat>
+<stat fail="0" id="s1-s1" name="Mypro" pass="1">Xhh.Mypro</stat>
+<stat fail="0" id="s1-s1-s1" name="IPv4" pass="1">Xhh.Mypro.IPv4</stat>
+<stat fail="0" id="s1-s1-s1-s1" name="Test2" pass="1">Xhh.Mypro.IPv4.Test2</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

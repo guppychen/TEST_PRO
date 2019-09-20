@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.robotframework.ide.tableditor.activePage./Xhh/mypro/IPv4/tesy.robot">
+		<item value="red.cases" key="activePage"/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./Xhh/mypro/keyword/keyword.robot">
+		<item value="" key="activePage"/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./Xhh/mypro/IPv4/parameter.robot">
+		<item value="red.variables" key="activePage"/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./Xhh/login/test.robot">
+		<item value="" key="activePage"/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./Xhh/mypro/IPv4/base.robot">
+		<item value="" key="activePage"/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./Xhh/mypro/base.robot">
+		<item value="" key="activePage"/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./Xhh/mypro/IPv4/test2.robot">
+		<item value="" key="activePage"/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./Xhh/login/login.robot">
+		<item value="red.keywords" key="activePage"/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./Xhh/mypro/IPv4/test.robot">
+		<item value="red.cases" key="activePage"/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./Xhh/login/base.robot">
+		<item value="" key="activePage"/>
+	</section>
+</section>

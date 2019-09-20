@@ -1,0 +1,26 @@
+This is stuff I typed into a file.
+BuiltIn . Log STEP:
+00:00:00.001KEYWORD BuiltIn . Log STEP:1 Provision match rule match untagged plus source MAC (MAC-A), confirm provision complete.
+00:00:00.001KEYWORD BuiltIn . Log STEP:2 Inject untagged traffic with source MAC address (MAC-A), confirm the traffic passes through.
+00:00:00.001KEYWORD BuiltIn . Log STEP:3 Inject untagged traffic with different source MAC address (MAC-B), confirm the traffic is dropped.
+00:00:00.001KEYWORD BuiltIn . Log STEP:1. match rules: src-mac;
+00:00:00.001KEYWORD BuiltIn . Log serivce 1
+00:00:00.000KEYWORD BuiltIn . Log configure class-map match src-mac success
+Start / End / Elapsed:	20190813 21:17:04.274 / 20190813 21:17:04.274 / 00:00:00.000
+21:17:04.274	INFO	configure class-map match src-mac success
+00:00:00.790KEYWORD keyword_command . prov_class_map eutA, ${class_map_name_ethertype}, ethernet, flow, 1, 1, vlan=${p_match_vlan1}, pcp=${match_pcp}
+00:00:00.000KEYWORD BuiltIn . Log create policy-map and add svc on ont-ethernet port
+00:00:01.071KEYWORD keyword_command . prov_policy_map eutA, ${policy_map_name}, class-map-ethernet, ${class_map_name_ethertype}, flow, 1, set-stag-pcp=${stag_pcp}
+00:00:01.946KEYWORD keyword_service_model . subscriber_point_add_svc_user_defined subscriber_point1, ${p_data_vlan1}, ${policy_map_name}
+00:00:00.001KEYWORD BuiltIn . Log run traffic
+00:00:00.001KEYWORD ${port_list} = BuiltIn . Create List service_p1, subscriber_p1
+00:00:00.001KEYWORD BuiltIn . Log create upstream traffic
+00:00:00.001KEYWORD BuiltIn . Log traffic with udp
+00:00:00.001KEYWORD BuiltIn . Log tag traffic with match vlan + pbit
+00:00:00.295KEYWORD keyword_tg . create_raw_traffic_udp tg1, up_tag_pbit_match, service_p1, subscriber_p1, ovlan=${subscriber_multivlan}, ivlan=${p_match_vlan1}, ivlan_pbit=${match_pcp}, frame_size=512, length_mode=fixed, mac_dst=${service_mac}, mac_src=${subscriber_mac1}, ip_dst=${sip}, ip_src=${cip}, rate_mbps=${rate_pps1}
+00:00:00.000KEYWORD BuiltIn . Log tag traffic with vlan unmatch pbit
+00:00:00.314KEYWORD keyword_tg . create_raw_traffic_udp tg1, up_tag_pbit_unmatch, service_p1, subscriber_p1, ovlan=${subscriber_multivlan}, ivlan=${p_match_vlan1}, ivlan_pbit=${unmatch_pcp}, frame_size=512, length_mode=fixed, mac_dst=${service_mac}, mac_src=${subscriber_mac1}, ip_dst=${sip}, ip_src=${cip}, rate_mbps=${rate_pps1}
+00:00:00.000KEYWORD BuiltIn . Log create downstream traffic
+00:00:00.002KEYWORD BuiltIn . Log traffic with udp
+00:00:00.001KEYWORD BuiltIn . Log traffic with vlan ${p_data_vlan1}
+00:00:00.246KEYWORD keyword_tg . create_raw_traffic_udp tg1, down1, subscriber_p1, service_p1, ovlan=${p_data_vlan1}, ovlan_pbit=${cetag_pcp}, frame_size=512, length_mode=fixed, mac_dst=${subscriber_mac1}, mac_src=${service_mac}, ip_dst=${cip}, ip_src=${sip}, rate_mbps=${rate_pps1}

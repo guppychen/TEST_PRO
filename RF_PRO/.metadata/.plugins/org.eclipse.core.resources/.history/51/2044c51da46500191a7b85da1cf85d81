@@ -1,0 +1,4 @@
+*** Setting ***
+Documentation    common keyword and library
+Resource    ../base.robot
+#Resource    ./parameter.robot

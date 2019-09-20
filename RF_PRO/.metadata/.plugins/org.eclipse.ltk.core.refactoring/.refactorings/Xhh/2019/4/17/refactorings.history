@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Xhh/mypro/keyword/tesy.robot&apos; to &apos;keyword.robot&apos;" description="Rename resource &apos;tesy.robot&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="mypro/keyword/tesy.robot" name="keyword.robot" stamp="1556005432624" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;Xhh/mypro/IPv4/tesy.robot&apos; to &apos;test.robot&apos;" description="Rename resource &apos;tesy.robot&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="mypro/IPv4/tesy.robot" name="test.robot" stamp="1556008794680" updateReferences="true"/>
+</session>

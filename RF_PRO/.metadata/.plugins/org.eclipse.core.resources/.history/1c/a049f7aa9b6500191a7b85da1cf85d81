@@ -1,0 +1,5 @@
+*** Setting ***
+Resource    base.robot
+*** Test Cases ***
+Set IP
+    log    ${ip1}

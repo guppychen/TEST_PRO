@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20190423 16:34:28.380" generator="Robot 3.0.4 (Python 2.7.15 on win32)">
+<suite source="D:\RFPRO\Xhh\mypro\IPv4\tesy.robot" id="s1" name="Tesy">
+<test id="s1-t1" name="case add">
+<kw name="add" library="keyword">
+<arguments>
+<arg>${n}</arg>
+<arg>${m}</arg>
+</arguments>
+<assign>
+<var>${d}</var>
+</assign>
+<msg timestamp="20190423 16:34:28.497" level="FAIL">Variable '${n}' not found. Did you mean:
+    ${\n}</msg>
+<status status="FAIL" endtime="20190423 16:34:28.498" starttime="20190423 16:34:28.497"></status>
+</kw>
+<status status="FAIL" endtime="20190423 16:34:28.498" critical="yes" starttime="20190423 16:34:28.495">Variable '${n}' not found. Did you mean:
+    ${\n}</status>
+</test>
+<status status="FAIL" endtime="20190423 16:34:28.500" starttime="20190423 16:34:28.385"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="0">Critical Tests</stat>
+<stat fail="1" pass="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="1" id="s1" name="Tesy" pass="0">Tesy</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

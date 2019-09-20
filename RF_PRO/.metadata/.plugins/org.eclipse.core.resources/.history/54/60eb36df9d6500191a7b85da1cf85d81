@@ -1,0 +1,8 @@
+*** Variable ***
+${a}
+${b}
+*** Keyword ***
+add
+    [Arguments]    ${a}    ${b}
+    ${c}    evaluate    ${a}+${b}
+    return    ${c}

@@ -1,0 +1,4 @@
+*** Settings ***
+Resource          ./base.robot
+*** Test Cases ***
+log    this is test2

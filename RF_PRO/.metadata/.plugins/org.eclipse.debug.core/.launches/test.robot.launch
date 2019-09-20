@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.robotframework.ide.robotLaunchConfiguration">
+<stringAttribute key="Agent connection host" value="127.0.0.1"/>
+<stringAttribute key="Agent connection port" value="43981"/>
+<stringAttribute key="Agent connection timeout" value="30"/>
+<booleanAttribute key="Exclude option enabled" value="false"/>
+<listAttribute key="Excluded tags"/>
+<stringAttribute key="Executable file arguments" value=""/>
+<stringAttribute key="Executable file path" value=""/>
+<booleanAttribute key="General purpose option enabled" value="true"/>
+<booleanAttribute key="Include option enabled" value="false"/>
+<listAttribute key="Included tags"/>
+<stringAttribute key="Interpreter arguments" value="robot --configfile D:\RFPRO\Xhh\mypro\IPv4\config.ini"/>
+<stringAttribute key="Interpreter name" value="Python"/>
+<booleanAttribute key="Project interpreter" value="true"/>
+<stringAttribute key="Project name" value="Xhh"/>
+<stringAttribute key="Remote agent" value="false"/>
+<stringAttribute key="Robot arguments" value=""/>
+<mapAttribute key="Test suites">
+<mapEntry key="mypro/IPv4/test.robot" value=""/>
+</mapAttribute>
+<setAttribute key="Test suites unselected"/>
+<stringAttribute key="Version of configuration" value="1"/>
+<mapAttribute key="org.eclipse.debug.core.environmentVariables">
+<mapEntry key="PYTHONIOENCODING" value="utf8"/>
+</mapAttribute>
+<stringAttribute key="org.eclipse.debug.ui.ATTR_CAPTURE_IN_FILE" value="${workspace_loc:/Xhh/log}"/>
+<stringAttribute key="process_factory_id" value="org.robotframework.ide.launch.process.factory"/>
+</launchConfiguration>
